@@ -1,20 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+ 
+    <title>Home</title>
 </head>
 <body>
+
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projecten.html">Projecten</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+
+            <div class="navb">
+                    <a class="active" href="index.html">Home</a>
+                    <a href="over mij.html">Over Mij</a>
+                    <a href="projecten.html">Projecten</a>
+                    <a href="vaardigheden.html">Vaardigheden</a>
+                    <a href="laatste nieuws.html">Laatste Nieuws</a>
+                    <a href="contact.html">Contact</a>
+                    <input type="text" placeholder="Zoek..">
+                  </div>
+
+                  <h1>Home</h1>
     </header>
+
+    <main>
+           
+        <div class="tekst1">
+                <a>Hallo en welkom op mijn site.
+                    Mijn naam is Bruce Amende (17) en ik ben student Applicatieontwikkelaar op het MBO College Amstelland.
+                    Ik ben nu bezig met mijn 1ste jaar en heb daarna nog 2 jaren te gaan.
+                    Ik doe deze opleiding, omdat mij coderen/programmeren heel leuk leek.
+                    Ik hoop deze opleiding nog meer te leren en uiteindelijk een leuke en leerzame stage te vinden, waarin ik mij nog verder ontwikkel.
+
+                </a>
+        </div>
+       <div class="foto1">
+           <img id="foto1" src="ik.jpeg" alt="mijzelf" onclick="verander1()">
+           <img id="foto2" src="ik2.jpg" alt="mijzelf" onclick="verander2()">
+       </div>
+    
+
+    </main>
+    <footer>
+
+        <div class="ondb">
+
+            <div id="datum">
+              
+                   
+                   
+            </div>
+        </div>
+    </footer>
+        <script src="home.js"></script>
 </body>
 </html>
