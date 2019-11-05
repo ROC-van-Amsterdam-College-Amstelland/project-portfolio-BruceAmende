@@ -74,3 +74,64 @@ body{
   h1{
     margin-left: 45%;
   }
+  .container{
+    margin-left: 3%;
+    flex-direction: column;
+    border: solid 1px black;
+    justify-content: space-between;
+    background-color: rgb(107, 105, 105);
+    
+  }
+
+#box1{
+  text-align: start;
+  justify-content: center;
+  border: solid 1px black;
+
+
+}
+h5{
+  justify-content: center;
+}
+
+#box2{
+  border: solid 1px black;
+
+}
+#box3{
+  border: solid 1px black;
+
+}
+
+.container h5,h3{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+
+}
+#myBar1 {
+  width: 85%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center; 
+  line-height: 30px; 
+  color: white;
+}
+#myBar2 {
+  width: 90%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center; 
+  line-height: 30px; 
+  color: white;
+}
+#myBar3 {
+  width: 10%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center; 
+  line-height: 30px; 
+  color: white;
+}
+
+
+
