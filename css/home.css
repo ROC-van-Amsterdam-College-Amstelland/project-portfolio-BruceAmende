@@ -65,10 +65,8 @@ body{
       
     }
   }
-  .ondb{
-
-    
-    margin-top: 50%;
+  footer{
+    display: flex;
     padding: 20px;
     background-color: #706f6f;
   }
@@ -116,4 +114,18 @@ img{
   display:none;
   border-radius: 60px;
   
+}
+#linkdin{
+  margin-left: 30%;
+  display:flex;
+  flex-direction: row;
+}
+#linklogo{
+  width: 10%;
+  margin-right: 5%;
+}
+#gitlogo{
+  width: 10%;
+  margin-right: 5%;
+
 }
